@@ -17,7 +17,14 @@ ENV/
 # Training data (too large for GitHub)
 training/dataset/
 training/runs/
+training/merged_organic/
 *.pt.backup
+
+# Pretrained base weights (downloaded, not ours)
+training/yolov8n.pt
+training/yolo26n.pt
+
+# Our trained model is ONLY at backend/model/best.pt (tracked via Git LFS)
 
 # Environment
 .env
