@@ -1,0 +1,12 @@
+train: D:/Hackthon-garbage/training/dataset/train/images
+val: D:/Hackthon-garbage/training/dataset/valid/images
+test: D:/Hackthon-garbage/training/dataset/test/images
+
+nc: 4
+names: ['RECYCLABLE', 'ORGANIC', 'HAZARDOUS', 'GENERAL']
+
+# Class mapping from original:
+# Old 0 (general waste)   -> New 3 (GENERAL)
+# Old 1 (hazardous waste) -> New 2 (HAZARDOUS)
+# Old 2 (organic)         -> New 1 (ORGANIC)
+# Old 3 (recyclable)      -> New 0 (RECYCLABLE)
